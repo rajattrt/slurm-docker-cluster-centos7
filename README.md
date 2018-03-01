@@ -79,5 +79,5 @@ To remove all containers and volumes, run:
 
 ```console
 $ docker rm -f slurmdbd mysql slurmctld compute1 compute
-$ docker volume rm slurmdockercluster_etc_munge slurmdockercluster_etc_slurm slurmdockercluster_slurm_jobdir slurmdockercluster_var_lib_mysql slurmdockercluster_var_log_slurm
+$ docker volume rm slurmdockerclustercentos7_etc_munge slurmdockerclustercentos7_etc_slurm slurmdockerclustercentos7_slurm_jobdir slurmdockerclustercentos7_var_lib_mysql slurmdockerclustercentos7_var_log_slurm
 ```
